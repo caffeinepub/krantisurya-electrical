@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+
+    /* Navy brand primary */
+    --navy: 0.22 0.055 243;
+    /* Orange accent */
+    --orange: 0.6 0.135 52;
+    /* Blue CTA */
+    --blue-cta: 0.48 0.11 242;
+
+    --background: 0.97 0.008 240;
+    --foreground: 0.18 0.04 243;
+    --card: 1 0 0;
+    --card-foreground: 0.18 0.04 243;
+    --popover: 1 0 0;
+    --popover-foreground: 0.18 0.04 243;
+    --primary: 0.22 0.055 243;
+    --primary-foreground: 0.98 0 0;
+    --secondary: 0.94 0.012 240;
+    --secondary-foreground: 0.22 0.055 243;
+    --muted: 0.94 0.012 240;
+    --muted-foreground: 0.5 0.02 240;
+    --accent: 0.6 0.135 52;
+    --accent-foreground: 0.98 0 0;
+    --destructive: 0.577 0.245 27.325;
+    --destructive-foreground: 0.985 0 0;
+    --border: 0.88 0.015 240;
+    --input: 0.88 0.015 240;
+    --ring: 0.48 0.11 242;
+    --chart-1: 0.646 0.222 41.116;
+    --chart-2: 0.6 0.118 184.704;
+    --chart-3: 0.398 0.07 227.392;
+    --chart-4: 0.828 0.189 84.429;
+    --chart-5: 0.769 0.188 70.08;
+    --sidebar: 0.22 0.055 243;
+    --sidebar-foreground: 0.98 0 0;
+    --sidebar-primary: 0.6 0.135 52;
+    --sidebar-primary-foreground: 0.98 0 0;
+    --sidebar-accent: 0.3 0.055 243;
+    --sidebar-accent-foreground: 0.98 0 0;
+    --sidebar-border: 0.3 0.055 243;
+    --sidebar-ring: 0.48 0.11 242;
+  }
+
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+}
